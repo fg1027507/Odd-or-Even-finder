@@ -11,9 +11,9 @@ int y = x % 2;
 // Uses IF to find out. If it = 0 then its even, else it is odd.
 if (y == 0)
 {
-    Console.WriteLine("The number is even.");
+    Console.WriteLine($"The number {x} is even.");
 }
 else
 {
-    Console.WriteLine("The number is odd.");
+    Console.WriteLine($"The number {x} is odd.");
 }
